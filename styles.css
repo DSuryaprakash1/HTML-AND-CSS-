@@ -1,37 +1,43 @@
 body{
   background-color: rgb(245, 245, 27);
   height: 100%;
+  padding: 10px 0 10px 10px;
 
 }
 
 .container{
   background-color: rgb(245, 245, 27);
-  display: flex;
   border: 2px solid rgb(0, 0, 0);
-  flex-wrap: wrap; 
+  display: grid;  
+  grid-template: repeat(2,50px)/repeat(2,1fr);  
+  grid-row-gap: 2px;
   
 }
 .container >div{
   padding: 5px;
-  width: 60px;
+
   text-align: center;  
   color:rgb(252, 252, 89);
-  width: 150px;
-  
-
-  
-  
-
+}
+.container>.white{
+  color: black;
 }
 .red{
   background-color: rgb(216, 83, 83);
-  
-
-}
+  }
 .green{
   background-color: rgb(77, 224, 77);
-  flex: 1;
+
 }
 .blue{
   background-color: rgb(55, 55, 243);
+}
+.white{
+  background-color: white;  
+}
+.pink{
+  background-color: pink;
+}
+.grey{
+  background-color: grey;
 }
