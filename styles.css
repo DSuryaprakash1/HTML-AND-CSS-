@@ -1,10 +1,35 @@
-h1 {
-  color: green;
-}
-h2 {
-  color: red;
-  position: relative;
-  top: 30px;
+body{
+  background-color: rgb(245, 245, 27);
+  height: 100%;
 
-  left: 90px;
+}
+
+.container{
+  background-color: rgb(245, 245, 27);
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);  
+  flex-direction: row;
+  height: 190;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+.container >div{
+  padding: 5px;
+  width: 60px;
+  text-align: center;  
+  color:rgb(252, 252, 89);
+  
+
+}
+.red{
+  background-color: rgb(216, 83, 83);
+  
+
+}
+.green{
+  background-color: rgb(77, 224, 77);
+}
+.blue{
+  background-color: rgb(55, 55, 243);
 }
